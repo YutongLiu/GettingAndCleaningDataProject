@@ -27,6 +27,8 @@ f_position<-as.integer(feature$V2)
 f_name<-levels(feature$V2)
 
 #Find the mean variable column and extract
+install.packages("dplyr")
+library(dplyr)
 meanposition<-grep("[Mm][Ee][Aa][Nn]\\(\\)",f_name)
 m_position<-c(rep(NA,561))
 for (i in 1:561) {
@@ -48,7 +50,7 @@ stdposition<-grep("[Ss][Tt][Dd]\\(\\)",f_name)
 std_position<-as.integer(c(rep(NA,561)))
 for (i in 1:561) {
         for (j in 1:length(stdposition)) {
-                if(f_position[i]==std[j]){
+                if(f_position[i]==stdposition[j]){
                         std_position[i]<-i
                         next
                 }
