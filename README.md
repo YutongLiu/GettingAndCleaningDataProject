@@ -1,4 +1,4 @@
-#GettingAndCleaningDataProject
+#Getting And Cleaning Data Project
 
 This data set was manipulated from the data set of experiments about human activity recognition using smartphones .
 
