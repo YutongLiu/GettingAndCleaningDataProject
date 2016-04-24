@@ -109,4 +109,4 @@ avg_set<-avg_set[,1:66]
 
 ##The output
 #Save the tidy data set in a txt file
-write.table(avg_set,file = "./average set.txt")
+write.table(avg_set,file = "./average set.txt",row.names = FALSE)
