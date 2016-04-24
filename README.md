@@ -13,7 +13,7 @@ Here is the link of original data set
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-###The data set includes the following files
+###This repo includes the following files
 
 * "average set.txt": the tidy data set, summarised from the raw data "Human_Activity_Recognition.zip"
 
