@@ -1,4 +1,4 @@
-#Getting And Cleaning Data Project
+##Getting And Cleaning Data Project
 
 This data set was manipulated from the data set of experiments about human activity recognition using smartphones .
 
@@ -12,11 +12,10 @@ Here is the link of original data set
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-The data set includes the following files
+###The data set includes the following files
 
+*-"average set.txt": the tidy data set, summarised from the raw data "Human_Activity_Recognition.zip"
 
--"average set.txt": the tidy data set, summarised from the raw data "Human_Activity_Recognition.zip"
+*-"Code book.txt": contains information about the variable in the data set "average set.txt"
 
--"Code book.txt": contains information about the variable in the data set "average set.txt"
-
--"run_analysis.R": An R script shows how to get a tidy data set from the raw data
+*-"run_analysis.R": An R script shows how to get a tidy data set from the raw data
